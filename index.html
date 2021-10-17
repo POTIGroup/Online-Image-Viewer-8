@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" , type="text/css" , href="style.css" />
+	<link rel="javascript" , type="text/javascript" , href="index.js" />
+	<title>Online Image Viewer Vol.6</title>
+</head>
+
+<body>
+	<noscript>
+		<strong>Sorry</strong>
+	</noscript>
+
+	<div id="uploader">
+		<div id="dropper" , ondragover="onDrag(event)">
+			<span>Drop to Upload</span>
+		</div>
+	</div>
+	
+	<div id = "editor">
+		<div id="canvasholder">
+			<div id="button">
+				<div id="ru"></div>
+				<div id="rb"></div>
+				<div id="lb"></div>
+				<div id="lu"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+
+	<script src="index.js"></script>
+	<script>
+		function onDrag(event) {
+			event.preventDefault();
+		}
+	</script>
+</body>
+
+</html>

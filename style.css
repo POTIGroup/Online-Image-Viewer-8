@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#uploader {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background: #222222;
+}
+
+#dropper {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 90%;
+	height: 90%;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#dropper span {
+	font-weight: 400;
+	font-size: 2em;
+}
+
+#editor {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+#canvasholder {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#ru
+{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #aaaaaa;
+	cursor: pointer;
+}
+
+#rb
+{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #aaaaaa;
+	cursor: pointer;
+}
+
+#lb
+{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #aaaaaa;
+	cursor: pointer;
+}
+
+#lu
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #aaaaaa;
+	cursor: pointer;
+}
+
+body {
+	background: #000000;
+}
